@@ -6,4 +6,9 @@ public class Sum {
 		return a+b;
 	}
 
+	
+	public static int sum(int a, int b, int c) {
+		return sum(sum(a, b), c);
+	}
+
 }

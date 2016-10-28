@@ -30,4 +30,11 @@ public class TestSum {
 		return Sum.sum(a,  b);
 	}
 
+	
+	@Test
+	public void suma3Numeros() {
+		assertEquals(16, Sum.sum(4, 5, 7));
+		
+	}
+
 }
